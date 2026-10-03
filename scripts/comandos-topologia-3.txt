@@ -1,0 +1,51 @@
+# Comandos utilizados — Topología 3
+
+## SW-Usuarios
+enable
+terminal length 0
+show vlan brief
+show interfaces trunk
+show running-config
+
+## R-USER
+enable
+terminal length 0
+show ip interface brief
+show ip route
+show ip dhcp binding
+show crypto ikev2 sa
+show crypto ipsec sa
+show running-config
+copy running-config startup-config
+
+## ISP
+enable
+terminal length 0
+show ip interface brief
+show ip route
+show running-config
+copy running-config startup-config
+
+## PC-Usuario
+ip -br a
+ip route
+ping -c 4 10.8.0.130
+curl -k https://10.8.0.130
+
+## Web Server
+ip -br a
+ip route
+ping -c 4 10.8.0.129
+ss -tlnp | grep 443
+
+## FortiGate
+get system interface
+get router info routing-table all
+get system arp
+show full-configuration
+
+## Prueba VPN
+show crypto ikev2 sa
+show crypto ipsec sa
+ping -c 4 10.8.0.130
+curl -k https://10.8.0.130
