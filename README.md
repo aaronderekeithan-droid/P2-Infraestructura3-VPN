@@ -2,6 +2,7 @@
 
 **Matrícula:** 2025-0800  
 **Entorno:** PNETLab / Cisco IOS / FortiGate / Ubuntu Server
+**Enlace al video:** https://youtu.be/0-y2iDqcCc0
 
 ## 1. Objetivo
 Implementar una infraestructura con red de usuarios, ISP simulado, VPN Site-to-Site IPsec entre `R-USER` y `FG-Server`, y una red de servidores.
@@ -144,13 +145,7 @@ Debe fallar.
 
 Volver a levantar el túnel y repetir el ping. Debe funcionar nuevamente.
 
-## 10. Video
 
-Mostrar: topología, VPN activa, ping/HTTPS, túnel abajo, ping fallando y recuperación.
-
-```text
-https://youtu.be/0-y2iDqcCc0
-```
 
 ## 11. Estructura del repositorio
 
