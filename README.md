@@ -167,10 +167,10 @@ scripts/
 running-configs/
   topologia-3/
     running-config-topologia-3.txt
+    FG-Server-RUNNING-CONFIG-REDACTED
 ```
 
 ## 12. Running Config
 
 La configuración completa proporcionada para `SW-Usuarios`, `R-USER` e `ISP` está en `running-configs/topologia-3/running-config-topologia-3.txt`.
 
-> Antes de publicar el repositorio, reemplaza la PSK por `<REDACTED>` si el repositorio es público.
